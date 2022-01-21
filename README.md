@@ -75,3 +75,8 @@ Lights: energy use of light fixtures in the house in Wh
 Appliances: energy use in Wh (Target Variable)
 
 Where indicated, hourly data (then interpolated) from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis, rp5.ru. Permission was obtained from Reliable Prognosis for the distribution of the 4.5 months of weather data.
+
+# Problem Statement
+We should predict Appliance energy consumption for a house based on factors like temperature, humidity & pressure .
+ 
+In order to achieve this, we need to develop a supervised learning model using regression algorithms. Regression algorithms are used as data consist of continuous features and there is no identification of appliances in the dataset.
